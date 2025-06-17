@@ -14,6 +14,8 @@ function Countdown() {
                     <h3>16</h3>
                 </div>
             </div>
+
+            <button className="start-task"><h6 className="text-large">START</h6></button>
         </div>
     )
 }
