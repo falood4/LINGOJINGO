@@ -3,7 +3,7 @@ import Welcome from "./components/layout/Welcome"
 import Dashboard from "./components/layout/Dashboard"
 import Challenge from "./components/layout/Challenge"
 
-const selectedpage = 1
+const selectedpage = 2
 
 const pages = {
   0: <Welcome />,

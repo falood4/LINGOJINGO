@@ -13,7 +13,7 @@ function ProgressBar() {
                     <div className="level-bar">{element}</div>)
             })}
 
-            <div className="xp" style={{ width: `${40}%` }}></div>
+            <div className="xp" style={{ width: `${30}%` }}></div>
         </div>
     )
 }
