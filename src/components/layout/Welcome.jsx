@@ -1,4 +1,6 @@
-function Welcome() {
+function Welcome(props) {
+    console.log('PROPS', props)
+    const { name, setName } = props
     return (
         <section id="welcome">
             <h3 className="text-large special-shadow">
@@ -11,7 +13,7 @@ function Welcome() {
             </h6>
 
             <div>
-                <input type="text" placeholder="Enter your name">
+                <input value={name} onChange={(evt) => { setName(evt.target.value) }} name="inputname" type="text" placeholder="Enter your name">
                 </input>
             </div>
             <button>
